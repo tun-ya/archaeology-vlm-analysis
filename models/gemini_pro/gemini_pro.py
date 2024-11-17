@@ -131,5 +131,5 @@ for name in tqdm(names):
     results = process_dataset(name, df, fn, fn_images)
 
     report = [r for r in results if r is not None]
-    with open(f"results_{name}.json", "w", encoding="utf-8") as f:
+    with open(f"../eval_script/results.json", "w", encoding="utf-8") as f:
         json.dump(report, f, ensure_ascii=False, indent=2)

@@ -39,7 +39,7 @@ for i in tqdm(range(len(outputs))):
     parts = pred_answer.split("[/INST]", 1)
     outputs[i]["answer"] = parts[1].strip() if len(parts) > 1 else pred_answer
 
-with open('result.json', 'w') as file:
+with open('../eval_script/results.json', 'w') as file:
     json.dump(outputs, file, indent=4)  
 
 print(f"Data has been saved to result.json")
