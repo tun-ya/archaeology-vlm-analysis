@@ -14,12 +14,12 @@ import time
 import random
 
 
-folder_image_path = "../Dataset"
-dataset_path = "../Dataset/datasets.json"
+folder_image_path = "../../data/processed/"
+dataset_path = "../../data/processed/vqa_data.json"
 with open(dataset_path, 'r') as file:
     datasets = json.load(file)
 
-df_data = pd.DataFrame(datasets)
+df = pd.DataFrame(datasets)
 
 def load_image(path):
     try:
@@ -27,14 +27,8 @@ def load_image(path):
     except (IOError, SyntaxError):
         return None
 
-df_data["image_path"] = folder_image_path + df_data["image_path"].str.replace('\\', '/')
-df_data["image"] = df_data["image_path"].apply(lambda x: load_image(x))
-df_data.dropna(subset=['image'], ignore_index=True, inplace=True)
-
-df = df_data[['image', 'Description']].copy()
-df.rename(columns={"Description": "answer"}, inplace=True)
-df['question'] = "Describe this image."
-
+df["image_path"] = folder_image_path + df["image"]
+df["image"] = df["image_path"].apply(lambda x: load_image(x))
 
 genai.configure(api_key="YOUR-KEY")
 model = genai.GenerativeModel("gemini-1.5-pro")

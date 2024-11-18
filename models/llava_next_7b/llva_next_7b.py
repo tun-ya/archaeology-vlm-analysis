@@ -10,23 +10,22 @@ processor = LlavaNextProcessor.from_pretrained("llava-hf/llava-v1.6-mistral-7b-h
 model = LlavaNextForConditionalGeneration.from_pretrained("llava-hf/llava-v1.6-mistral-7b-hf", torch_dtype=torch.float16, low_cpu_mem_usage=True) 
 model.to("cuda:0")
 
-folder_image_path = "../Dataset"
-dataset_path = "../Dataset/datasets.json"
+folder_image_path = "../../data/processed/"
+dataset_path = "../../data/processed/vqa_data.json"
 with open(dataset_path, 'r') as file:
     datasets = json.load(file)
 
 outputs = copy.deepcopy(datasets)
 for i in tqdm(range(len(outputs))):
     try:
-        image = Image.open(folder_image_path + outputs[i]["image_path"].replace('\\', '/'))
+        image = Image.open(folder_image_path + outputs[i]["image"])
     except (IOError, SyntaxError):
         continue
     conversation = [
         {
         "role": "user",
         "content": [
-            # {"type": "text", "text": outputs[i]["question"]},
-            {"type": "text", "text": "Describe this image."},
+            {"type": "text", "text": outputs[i]["question"]},
             {"type": "image"},
             ],
         },
@@ -37,7 +36,7 @@ for i in tqdm(range(len(outputs))):
     output = model.generate(**inputs, max_new_tokens=100)
     pred_answer = processor.decode(output[0], skip_special_tokens=True)
     parts = pred_answer.split("[/INST]", 1)
-    outputs[i]["answer"] = parts[1].strip() if len(parts) > 1 else pred_answer
+    outputs[i]["pred_answer"] = parts[1].strip() if len(parts) > 1 else pred_answer
 
 with open('../eval_script/results.json', 'w') as file:
     json.dump(outputs, file, indent=4)  
