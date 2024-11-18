@@ -10,5 +10,5 @@
 ```
 
 ```bash
-    python eval_script/word_count_evaluation.py gemini_pro/results_demo.json
+    python eval_script/metric_score_evaluation.py gemini_pro/results_demo.json
 ```
