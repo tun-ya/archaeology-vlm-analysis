@@ -31,7 +31,7 @@ df["image_path"] = folder_image_path + df["image"]
 df["image"] = df["image_path"].apply(lambda x: load_image(x))
 
 client = OpenAI(
-    api_key="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"
+    api_key="YOUR-KEY"
 )
 
 model_name = "gpt-4o"
