@@ -5,3 +5,6 @@ google-generativeai
 evaluate
 transformers
 torch
+pydantic
+openai
+qwen-vl-utils
