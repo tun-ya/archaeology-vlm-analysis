@@ -1,0 +1,20 @@
+[
+    {
+        "image": "images/193369_800.jpg",
+        "question": "What is this object made of?",
+        "answer": "Ceramic",
+        "pred_answer": "This object appears to be a ceramic or pottery vessel, likely from a pre-Columbian culture. The intricate and stylized design suggests it may have been used for ceremonial or ritual purposes. The colors and patterns are characteristic of certain indigenous art styles from regions such as the Andes or Mesoamerica."
+    },
+    {
+        "image": "images/193369_800.jpg",
+        "question": "What is this object's culture?",
+        "answer": "Paracas",
+        "pred_answer": "This object appears to be a ceramic vessel with a stylized, anthropomorphic design. The intricate and colorful decoration suggests it might be from a culture that values artistic expression and possibly has a tradition of creating ceremonial or decorative items. The specific style and motifs could be indicative of a particular region or historical period, but without more context, it's challenging to pinpoint the exact culture. It could be from a Mesoamerican culture, such as the Moche or Nazca, known for their intricate pottery and ceramic art."
+    },
+    {
+        "image": "images/193369_800.jpg",
+        "question": "Describe this image",
+        "answer": "Pottery with mask; unusual type; animal mask on forehead.",
+        "pred_answer": "The image depicts a stylized, anthropomorphic sculpture that appears to be a representation of a human figure with animal features. The figure has a large, expressive face with exaggerated eyes, a nose, and a mouth with sharp teeth. The face is adorned with black lines that resemble whiskers or facial markings. The figure also has a large, pointed ear on the side of its head and a tail protruding from the back. The overall color scheme includes shades of orange, brown, and black, giving it a vibrant and dynamic appearance. The sculpture has a somewhat abstract and artistic quality, suggesting it might be a piece of folk art or a"
+    }
+]

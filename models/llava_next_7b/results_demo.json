@@ -1,0 +1,20 @@
+[
+    {
+        "image": "images/193369_800.jpg",
+        "question": "What is this object made of?",
+        "answer": "Ceramic",
+        "pred_answer": "The object in the image appears to be a mask made of wood. It features a stylized face with a prominent nose and eyes, and there are decorative elements such as lines and dots that suggest a tribal or indigenous design. The mask has a pointed chin and a small protrusion at the top, which could be a representation of a headdress or a part of the mask's design. The mask's craftsmanship and the style of the decorations"
+    },
+    {
+        "image": "images/193369_800.jpg",
+        "question": "What is this object's culture?",
+        "answer": "Paracas",
+        "pred_answer": "The object in the image appears to be a mask, which is a common form of artistic expression and cultural artifact in many societies around the world. The style of the mask, with its geometric patterns and the depiction of a face with a stylized nose and mouth, suggests it could be from a culture that values intricate designs and possibly has a tradition of mask-making for ceremonial or theatrical purposes.\n\nWithout more context or specific details that are characteristic of a particular"
+    },
+    {
+        "image": "images/193369_800.jpg",
+        "question": "Describe this image",
+        "answer": "Pottery with mask; unusual type; animal mask on forehead.",
+        "pred_answer": "The image shows a wooden mask with a stylized face. The mask features a prominent nose and two large, dark eyes with a lighter rim, giving it a somewhat anthropomorphic appearance. The mouth is closed, and the lips are painted in a darker shade than the rest of the face. The mask has a large, pointed ear on the top left side, and there are decorative lines and patterns on the face, including what appears to be a stylized cat's face"
+    }
+]

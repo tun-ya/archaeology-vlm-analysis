@@ -12,10 +12,19 @@ import os
 import multiprocessing as mp
 import time
 import random
+import argparse
 
+parser = argparse.ArgumentParser(description="Path arguments")
+parser.add_argument('images_folder', type=str, help="Images folder path ex. ../../data/processed/")
+parser.add_argument('dataset_path', type=str, help="Dataset file path (.json) ex. ../../data/processed/vqa_data.json")
+parser.add_argument('result_path', type=str, help="Result file path (.json) ex. results.json")
 
-folder_image_path = "../../data/processed/"
-dataset_path = "../../data/processed/vqa_data.json"
+# Parse the arguments
+args = parser.parse_args()
+
+folder_image_path = args.images_folder                  #   "../../data/processed/"
+dataset_path = args.dataset_path                        #   "../../data/processed/vqa_data.json"
+results_path = args.result_path                         #   "results.json"
 with open(dataset_path, 'r') as file:
     datasets = json.load(file)
 
@@ -125,5 +134,5 @@ for name in tqdm(names):
     results = process_dataset(name, df, fn, fn_images)
 
     report = [r for r in results if r is not None]
-    with open(f"../eval_script/results.json", "w", encoding="utf-8") as f:
+    with open(results_path, "w", encoding="utf-8") as f:
         json.dump(report, f, ensure_ascii=False, indent=2)

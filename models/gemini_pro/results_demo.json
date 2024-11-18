@@ -1,0 +1,20 @@
+[
+  {
+    "index": 0,
+    "pred_answer": "This object is made of **painted ceramic**.  More specifically, it's likely earthenware or terracotta that has been painted with slips (liquid clay pigments) and then fired.  This type of pottery is common in many ancient cultures, and the style of this piece suggests a possible pre-Columbian origin.",
+    "answer": "Ceramic",
+    "question": "What is this object made of?"
+  },
+  {
+    "index": 1,
+    "pred_answer": "This object comes from the **Vicús** culture of northern Peru (c. 250 BCE - 500 CE).  Vicús pottery is known for its striking, often stirrup-spouted vessels, featuring depictions of animals, humans, and supernatural beings.  This particular piece, with its human face wearing an animal headdress (likely a fox or canine), is typical of the Vicús style. They often combined human and animal characteristics in their art.",
+    "answer": "Paracas",
+    "question": "What is this object's culture?"
+  },
+  {
+    "index": 2,
+    "pred_answer": "This image depicts a ceramic vessel or effigy, likely of pre-Columbian origin, shaped like a human head wearing an animal headdress.  \n\nThe headdress appears to represent a canine or feline creature, possibly a fox or a jaguar. It has pointed ears, a snout with bared teeth, and painted markings that resemble whiskers and stripes. The headdress covers most of the human head underneath.\n\nThe human face is painted orange with black details including large, almond-shaped eyes, a wide nose, a small mouth, and lines that might represent facial paint or scarification. The overall style is somewhat naive or folk-art-like. The clay itself appears to be a light beige or tan color.\n\nThe piece likely has cultural or religious significance, given its subject matter and style, suggestive of ancient rituals or beliefs.",
+    "answer": "Pottery with mask; unusual type; animal mask on forehead.",
+    "question": "Describe this image"
+  }
+]
