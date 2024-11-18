@@ -110,7 +110,7 @@ def generate(text: str, images: List[str]) -> VQAAnswer:
     vqa_answer = VQAAnswer.model_validate_json(
         completion.choices[0].message.tool_calls[0].function.arguments
     )
-    print(vqa_answer)
+    # print(vqa_answer)
     return vqa_answer
 
 

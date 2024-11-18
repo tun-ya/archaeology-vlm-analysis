@@ -2,7 +2,7 @@
 
 ## Model inference
 ```bash
-    python gemini_pro/gemini_pro.py ../demo/ ../demo/vqa_data.json gemini_pro/results_demo.json
+    python gemini_pro/gemini_pro.py ../demo/data/ ../demo/data/vqa_data.json gemini_pro/results_demo.json
 ```
 
 ## Model evaluation

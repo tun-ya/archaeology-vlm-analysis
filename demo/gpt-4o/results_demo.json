@@ -1,0 +1,20 @@
+[
+  {
+    "index": 0,
+    "pred_answer": "The object appears to be made of wood.",
+    "answer": "Ceramic",
+    "question": "What is this object made of?"
+  },
+  {
+    "index": 1,
+    "pred_answer": "The object appears to be a ceramic or wooden mask resembling those from indigenous cultures of modern-day Mexico and Central America. It is reminiscent of pre-Columbian or Mesoamerican art, possibly from the Aztec, Maya, or a similar indigenous culture. The mask features animal motifs, which are common in these cultures.",
+    "answer": "Paracas",
+    "question": "What is this object's culture?"
+  },
+  {
+    "index": 2,
+    "pred_answer": "The image shows a sculptural mask with a dual design. The mask features a human face with exaggerated features including large almond-shaped eyes, a broad nose, and a wide mouth. The cheeks have vertical stripes, giving it a stylized appearance. Atop the human face, there's an animal figure, possibly a totemic creature with an open mouth and sharp teeth, horns or ears, and pronounced nostrils. The mask has a mix of earthy orange and tan colors, with black details accentuating specific features. The overall design is artistic and likely has cultural or ritual significance.",
+    "answer": "Pottery with mask; unusual type; animal mask on forehead.",
+    "question": "Describe this image"
+  }
+]
