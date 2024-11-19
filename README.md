@@ -1,6 +1,6 @@
-# archaeology-vlm-analysis
+# Analysis of Vision Language Models in Archaeology
 
-A brief description of what this project does and who it's for.
+This project is to analyze and evaluate how existing VLMs perform on archaeological data. Without further training on these datasets, we aim to explore which VLM is most suitable for sorting, describing, and mainly answering questions regarding archaeological artifacts through Visual Question Answering (VQA). Our project will focus on zero-shot classification and assess how well these VLMs do on unseen data.
 
 ## Table of Contents
 
@@ -20,8 +20,7 @@ Follow these steps to set up the project locally.
 
 ### Prerequisites
 
-- Python 3.x
-- pip (Python package installer)
+- Anaconda
 
 ### Steps
 
@@ -64,9 +63,9 @@ After running the app, you can visit `http://localhost:5000` in your browser, wh
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+.
 
 ## Acknowledgments
 
-- Thanks to [Flask](https://flask.palletsprojects.com/) for making web development simple.
-- Thanks to [SQLite](https://www.sqlite.org/) for providing an easy-to-use database engine.
+- Thanks to [LLaVa-NeXT](https://huggingface.co/llava-hf/llava-v1.6-mistral-7b-hf).
+- Thanks to [Qwen2-VL](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct).
