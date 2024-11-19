@@ -1,69 +1,3 @@
-# Evaluation on demo dataset
-
-## Example command
-### BLEU (Bilingual Evaluation Understudy)
-```bash
-    cd demo/gemini_pro
-    python ../../models/eval_script/bleu_score_evaluation.py results_demo.json
-```
-```
-Average BLEU Score: 0.0
-```
-### F1, Precesion and Recall
-```bash
-    cd demo/gemini_pro
-    python ../../models/eval_script/metric_score_evaluation.py results_demo.json
-```
-
-```
-Average F1 score: 0.0288
-Average Precision: 0.0152
-Average Recall: 0.4167
-```
-
-### GPT-4o
-```bash
-    cd demo/gemini_pro
-    python ../../models/eval_script/gpt_4o_evaluation_score.py demo_gpt_evaluation.json
-```
-
-```
-Average GTP-4o Rating: 0.6000
-```
-
-## Evaluation metrics on demo dataset
-|  Models  | Evaluation Metrics       |    Score    |     Score (%)    |
-|----------|--------------------------|-------------|-------------|
-|**Gemini Pro**| BLEU                     |   0.0  | 0.0 |
-|          | F1                       |  0.0288   | 2.88 |
-|          | Precision                |  0.0152   |  1.52 |
-|          | Recall                   |  0.4167  |  41.67 |
-||
-|**GPT 4o**| BLEU                     |   0.0  | 0.0 |
-|          | F1                       |  0.0270   | 2.70 |
-|          | Precision                |  0.0152   | 1.52 |
-|          | Recall                   |  0.1250   | 12.50 |
-||
-|**LLaVa Next**| BLEU                     |   0.0  | 0.0 |
-|          | F1                       |  0.0323   | 3.23 |
-|          | Precision                |  0.0185   | 1.85 |
-|          | Recall                   |  0.1250   | 12.50 |
-||
-|**Qwen2 VL**| BLEU                     |   0.0  | 0.0 |
-|          | F1                       |  0.0405   | 4.05 |
-|          | Precision                |  0.0219   | 2.19 |
-|          | Recall                   |  0.4583   | 45.83 |
-
-## GPT-4o evaluation on demo dataset
-|  Models  |    Score    |     Score (%)    |
-|----------|-------------|-------------|
-|**Gemini Pro**|   0.6000  | 60.00 |
-|**GPT 4o**|   0.3667  | 36.67 |
-|**LLaVa Next**|   0.5333  | 53.33 |
-|**Qwen2 VL**|   0.6333  | 63.33 |
-
-### Example evaluation output
-```json
 [
   {
     "index": 0,
@@ -87,4 +21,3 @@ Average GTP-4o Rating: 0.6000
     "output": "Rating: 6\n\nExplanation: \n\n1. **Overall Description**:\n   - Both the generated response and the ground truth describe a mask. The ground truth specifies \"Pottery with mask,\" whereas the generated response does not explicitly mention pottery.\n\n2. **Design and Features**:\n   - The ground truth simply mentions \"animal mask on forehead.\" Meanwhile, the generated response offers a more detailed description, noting a \"dual design\" with features like large eyes, a wide mouth, and an animal figure on top.\n\n3. **Colors**:\n   - The generated response highlights the colors (earthy orange and tan) and additional black detailing, which the ground truth does not mention.\n\n4. **Cultural Significance**:\n   - The generated response speculates on cultural significance, which is absent in the ground truth.\n\nThe generated response provides a more embellished and detailed visual description, whereas the ground truth text is concise and focused more on the type and structure (pottery with mask, animal mask on forehead) without elaborating on visual details or colors."
   }
 ]
-```
