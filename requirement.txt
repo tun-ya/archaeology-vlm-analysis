@@ -1,4 +1,7 @@
 pandas
+spacy
+requests
+selenium
 tqdm
 Pillow
 google-generativeai
