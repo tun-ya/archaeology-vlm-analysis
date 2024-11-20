@@ -9,9 +9,9 @@ gemini_pro
 
 ```json
   {
-    "index": 365,
-    "pred_answer": "A string of small, dark green disc-shaped beads lies on a plain gray surface. The beads are strung together to form a loose circle or loop. A small piece of string or twine is visible where the ends are tied. A white rectangular label with black and white squares for scale is positioned below the beads. The label displays the number \"12708\" and \"CM\".  The beads appear slightly mottled or uneven in color, suggesting a possible natural material or an uneven glaze. They are likely quite small, as indicated by the scale label.",
-    "answer": "Grey ware. mask or part of urn; face wearing half mask",
+    "index": 1988,
+    "pred_answer": "The image shows a small, dark gray stone carving of a figure, possibly a deity or spirit. The carving is roughly rectangular and seems to be attached to a slightly larger, similarly shaped piece of stone that serves as a backing.  The figure itself has a pointed head, and what appear to be simplified facial features, possibly including eyes and a nose or mouth. Its body is less defined, seeming to taper downwards. The texture of the stone appears rough and pitted. A scale bar with the number 12677 is positioned below the artifact. The background is a plain, light yellowish-beige surface.",
+    "answer": "Silver, repoussed into a butterfly, stamped, with four silver wires attached to appliqued silver balls and one small, oval, bezel-set turquoise stone.",
     "question": "Describe this image"
   }
 ```
@@ -24,10 +24,10 @@ gemini_pro
 ```
 ```json
   {
-    "index": 365,
-    "pred_answer": "A string of small, dark green disc-shaped beads lies on a plain gray surface. The beads are strung together to form a loose circle or loop. A small piece of string or twine is visible where the ends are tied. A white rectangular label with black and white squares for scale is positioned below the beads. The label displays the number \"12708\" and \"CM\".  The beads appear slightly mottled or uneven in color, suggesting a possible natural material or an uneven glaze. They are likely quite small, as indicated by the scale label.",
-    "answer": "Grey ware. mask or part of urn; face wearing half mask",
+    "index": 1988,
+    "pred_answer": "The image shows a small, dark gray stone carving of a figure, possibly a deity or spirit. The carving is roughly rectangular and seems to be attached to a slightly larger, similarly shaped piece of stone that serves as a backing.  The figure itself has a pointed head, and what appear to be simplified facial features, possibly including eyes and a nose or mouth. Its body is less defined, seeming to taper downwards. The texture of the stone appears rough and pitted. A scale bar with the number 12677 is positioned below the artifact. The background is a plain, light yellowish-beige surface.",
+    "answer": "Silver, repoussed into a butterfly, stamped, with four silver wires attached to appliqued silver balls and one small, oval, bezel-set turquoise stone.",
     "question": "Describe this image",
-    "output": "Rating: 4\n\nExplanation: The generated response describes a string of dark green beads on a gray surface, detailing elements like a label for scale and the beads' appearance. However, the ground truth identifies the item as a piece of grey ware, possibly a mask or part of an urn. The response and the ground truth convey different objects and concepts. \n\nDifferences:\n1. Object Description: The generated response discusses beads, while the ground truth speaks of grey ware potentially related to a mask or urn.\n2. Material & Appearance: The response mentions mottled dark green beads, whereas the ground truth refers to grey ware.\n3. Context: The response includes specific details about a label and the scale, which are not present in the ground truth.\n\nThese differences lead to the low rating since the fundamental object and purpose identified in the generated response don't align with the ground truth."
+    "output": "Rating: 2\n\nExplanation: The generated response and the ground truth describe completely different objects. The generated response talks about a \"small, dark gray stone carving of a figure, possibly a deity or spirit,\" while the ground truth describes a \"silver, repoussed into a butterfly, stamped, with silver wires\" and a \"bezel-set turquoise stone.\" The only vague similarity might be the mention of something that is \"small\" and \"bezel-set\" stones in both answers, but these are part of very different items (a stone carving vs. silver jewelry with turquoise). The description of the material (dark gray stone vs. silver) and the subject of the depiction (a deity or spirit figure vs. a butterfly with turquoise) are completely different. Therefore, the generated response does not match the ground truth at all, justifying a low rating."
   }
 ```

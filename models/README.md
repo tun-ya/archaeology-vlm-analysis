@@ -40,6 +40,11 @@
 |          | F1                       |  0.0390   | 3.90 |
 |          | Precision                |  0.0283   | 2.83 |
 |          | Recall                   |  0.1905   | 19.05 |
+||
+|**Qwen2-VL**| BLEU                     |   0.0003532  | 0.03532 |
+|          | F1                       |  0.0462   | 4.62 |
+|          | Precision                |  0.0319   | 3.19 |
+|          | Recall                   |  0.2234   | 22.34 |
 
 ## GPT-4o evaluation on processed dataset
 |  Models  |    Score    |     Score (%)    |
@@ -47,7 +52,7 @@
 |**Gemini-Pro**|  0.3385  | 33.85 |
 |**GPT-4o**|  0.3745  | 37.45 |
 |**LLaVa-NeXT**|  0.4763  | 47.63 |
-|**Qwen2-VL**|     |  |
+|**Qwen2-VL**|  0.5140  | 51.40 |
 
 ### Example evaluation output
 ```json
