@@ -27,27 +27,47 @@
 |  Models  | Evaluation Metrics       |    Score    |     Score (%)    |
 |----------|--------------------------|-------------|-------------|
 |**Gemini-Pro**| BLEU                     |   0.0000614  | 0.00614 |
-|          | ROUGE-1 F-measure                       |  0.0235   | 2.35 |
-|          | ROUGE-1 Precision                |  0.0161   |  1.61 |
-|          | ROUGE-1 Recall                |  0.1099   |  10.99 |
+|          | ROUGE-1                        |
+|          | F-measure                       |  0.0235   | 2.35 |
+|          | Precision                |  0.0161   |  1.61 |
+|          | Recall                |  0.1099   |  10.99 |
+|          | ROUGE-L  |
+|          | F-measure                       |  0.0176   | 1.76 |
+|          | Precision                |  0.0117   |  1.17 |
+|          | Recall                |  0.0967   |  9.67 |
 |          | GPT-4o                   |  0.3385   |  33.85 |
 ||
 |**GPT-4o**| BLEU                     |   0.0001236  | 0.01236 |
-|          | ROUGE-1 F-measure                        |  0.0413   | 4.13 |
-|          | ROUGE-1 Precision                |  0.0310   |  3.10 |
-|          | ROUGE-1 Recall                |  0.1308   |  13.08 |
+|          | ROUGE-1  |
+|          | F-measure                        |  0.0413   | 4.13 |
+|          | Precision                |  0.0310   |  3.10 |
+|          | Recall                |  0.1308   |  13.08 |
+|          | ROUGE-L |
+|          | F-measure                       |  0.0339   | 3.39 |
+|          | Precision                |  0.0243   |  2.43 |
+|          | Recall                |  0.1184   |  11.84 |
 |          | GPT-4o                   |  0.3745   |  37.45 |
 ||
 |**LLaVa-NeXT**| BLEU                     |   0.0001914  | 0.01914 |
-|          | ROUGE-1 F-measure                        |  0.0351   | 3.51 |
-|          | ROUGE-1 Precision                |  0.0254   | 2.54 |
-|          | ROUGE-1 Recall                |  0.2033   |  20.33 |
+|          | ROUGE-1 |
+|          | F-measure                        |  0.0351   | 3.51 |
+|          | Precision                |  0.0254   | 2.54 |
+|          | Recall                |  0.2033   |  20.33 |
+|          | ROUGE-L  |
+|          | F-measure                       |  0.0266   | 2.66 |
+|          | Precision                |  0.0185   |  1.85 |
+|          | Recall                |  0.1866   |  18.66 |
 |          | GPT-4o                   |  0.4763   | 47.63 |
 ||
 |**Qwen2-VL**| BLEU                     |   0.0003532  | 0.03532 |
-|          | ROUGE-1 F-measure                        |  0.0421   | 4.21 |
-|          | ROUGE-1 Precision                |  0.0289   | 2.89 |
-|          | ROUGE-1 Recall                |  0.2439   |  24.39 |
+|          | ROUGE-1  |
+|          | F-measure                        |  0.0421   | 4.21 |
+|          | Precision                |  0.0289   | 2.89 |
+|          | Recall                |  0.2439   |  24.39 |
+|          | ROUGE-L  |
+|          | F-measure                       |  0.0325   | 3.25 |
+|          | Precision                |  0.0213   |  2.13 |
+|          | Recall                |  0.2222   |  22.22 |
 |          | GPT-4o                   |  0.5140   | 51.40 |
 
 ### GPT-4o evaluation output example
