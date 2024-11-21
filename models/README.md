@@ -11,9 +11,9 @@
 ```bash
     python eval_script/bleu_score_evaluation.py gemini_pro/results_demo.json
 ```
-#### F1, Precesion and Recall
+#### ROUGE-1 (Recall-Oriented Understudy for Gisting Evaluation)
 ```bash
-    python eval_script/metric_score_evaluation.py gemini_pro/results_demo.json
+    python eval_script/rouge_score_evaluation.py gemini_pro/results_demo.json
 ```
 #### GPT-4o
 ```bash
