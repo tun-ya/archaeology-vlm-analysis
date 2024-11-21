@@ -27,34 +27,30 @@
 |  Models  | Evaluation Metrics       |    Score    |     Score (%)    |
 |----------|--------------------------|-------------|-------------|
 |**Gemini-Pro**| BLEU                     |   0.0000614  | 0.00614 |
-|          | F1                       |  0.0244   | 2.44 |
-|          | Precision                |  0.0166   |  1.66 |
-|          | Recall                   |  0.0996   |  9.96 |
+|          | ROUGE-1 F-measure                       |  0.0235   | 2.35 |
+|          | ROUGE-1 Precision                |  0.0161   |  1.61 |
+|          | ROUGE-1 Recall                |  0.1099   |  10.99 |
+|          | GPT-4o                   |  0.3385   |  33.85 |
 ||
 |**GPT-4o**| BLEU                     |   0.0001236  | 0.01236 |
-|          | F1                       |  0.0410   | 4.10 |
-|          | Precision                |  0.0304   |  3.04 |
-|          | Recall                   |  0.1214   |  12.14 |
+|          | ROUGE-1 F-measure                        |  0.0413   | 4.13 |
+|          | ROUGE-1 Precision                |  0.0310   |  3.10 |
+|          | ROUGE-1 Recall                |  0.1308   |  13.08 |
+|          | GPT-4o                   |  0.3745   |  37.45 |
 ||
 |**LLaVa-NeXT**| BLEU                     |   0.0001914  | 0.01914 |
-|          | F1                       |  0.0390   | 3.90 |
-|          | Precision                |  0.0283   | 2.83 |
-|          | Recall                   |  0.1905   | 19.05 |
+|          | ROUGE-1 F-measure                        |  0.0351   | 3.51 |
+|          | ROUGE-1 Precision                |  0.0254   | 2.54 |
+|          | ROUGE-1 Recall                |  0.2033   |  20.33 |
+|          | GPT-4o                   |  0.4763   | 47.63 |
 ||
 |**Qwen2-VL**| BLEU                     |   0.0003532  | 0.03532 |
-|          | F1                       |  0.0462   | 4.62 |
-|          | Precision                |  0.0319   | 3.19 |
-|          | Recall                   |  0.2234   | 22.34 |
+|          | ROUGE-1 F-measure                        |  0.0421   | 4.21 |
+|          | ROUGE-1 Precision                |  0.0289   | 2.89 |
+|          | ROUGE-1 Recall                |  0.2439   |  24.39 |
+|          | GPT-4o                   |  0.5140   | 51.40 |
 
-## GPT-4o evaluation on processed dataset
-|  Models  |    Score    |     Score (%)    |
-|----------|-------------|-------------|
-|**Gemini-Pro**|  0.3385  | 33.85 |
-|**GPT-4o**|  0.3745  | 37.45 |
-|**LLaVa-NeXT**|  0.4763  | 47.63 |
-|**Qwen2-VL**|  0.5140  | 51.40 |
-
-### Example evaluation output
+### GPT-4o evaluation output example
 ```json
 [
   {
