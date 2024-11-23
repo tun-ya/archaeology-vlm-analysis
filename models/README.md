@@ -11,7 +11,7 @@
 ```bash
     python eval_script/bleu_score_evaluation.py gemini_pro/results_demo.json
 ```
-#### ROUGE-1 (Recall-Oriented Understudy for Gisting Evaluation)
+#### ROUGE (Recall-Oriented Understudy for Gisting Evaluation)
 ```bash
     python eval_script/rouge_score_evaluation.py gemini_pro/results_demo.json
 ```
