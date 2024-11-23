@@ -6,13 +6,12 @@ This project is to analyze and evaluate how existing VLMs perform on archaeologi
 
 1. [Description](#description)
 2. [Installation](#installation)
-3. [Usage](#usage)
-4. [License](#license)
-5. [Acknowledgments](#acknowledgments)
+3. [Project Structure](#structure)
+4. [Acknowledgments](#acknowledgments)
 
 ## Description
 
-This project is a Python web application that allows users to track their daily tasks and productivity. It provides a simple user interface to add, edit, and delete tasks. The project is built using Flask for the backend and SQLite for the database.
+This project consists of two main components: the creation of a dataset and taxonomy, and the evaluation of Visual Language Models (VLMs) for archaeological data. The first part focuses on developing a comprehensive dataset and taxonomy to effectively categorize and analyze archaeological data. The second part involves evaluating VLM performance through Visual Question Answering (VQA) tasks to test their applicability to archaeological research. We provide the necessary code for both dataset creation and evaluation on this GitHub repository, allowing users to replicate and extend the research.
 
 ## Installation
 
@@ -49,23 +48,21 @@ Follow these steps to set up the project locally.
     conda install -r requirements.txt
     ```
 
-## Usage
+## Project Structure
 
-Once the application is running, you can access it via your browser. The main features include:
+This repository is organized into the following key directories and files:
 
-- **Add a task**: Use the form to add tasks to your to-do list.
-- **Edit a task**: Click on a task to edit it.
-- **Delete a task**: Remove tasks you no longer need.
+- **`data/`**: This directory includes all necessary files and scripts for creating the dataset and taxonomy for archaeological data.
+- **`models/`**: Contains the scripts for evaluating Visual Language Models (VLMs) using Visual Question Answering (VQA) tasks on the dataset.
+- **`demo/`**: Contains example for evaluation.
+- **`requirements.txt`**: A file listing the required libraries and dependencies to run the project.
+- **`README.md`**: This file, providing an overview of the project, setup instructions, and usage guidelines.
 
-### Example:
+Each section has its own **README.md** for specific setup and usage instructions.
 
-After running the app, you can visit `http://localhost:5000` in your browser, where you can start adding tasks.
-
-## License
-
-.
 
 ## Acknowledgments
 
+- Thanks to [Penn Museum](https://www.penn.museum/)
 - Thanks to [LLaVa-NeXT](https://huggingface.co/llava-hf/llava-v1.6-mistral-7b-hf).
 - Thanks to [Qwen2-VL](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct).
